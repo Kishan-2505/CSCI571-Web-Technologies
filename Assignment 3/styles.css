@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+
+.heading{
+	font-family: 'Georgia', serif;
+	font-weight: 400;
+	margin-bottom: 3px;
+	margin-top: 15px;
+	/*font-weight: bold;*/
+	font-size: 38px;
+	letter-spacing: 0.5px;
+}
+
+.navbar{
+	text-align: center;
+	box-sizing: border-box;
+	width: 470px;
+  	/*height: 100px;*/
+  	margin-top: 25px;
+  	padding-top: 0px;
+  	padding-left: 25px;
+  	padding-right: 25px;
+  	border: 1.5px solid black;
+}
+
+ul{
+	margin-top: 0px;
+}
+
+li{
+	display: inline;
+	padding: 6px;
+	font-style: italic;
+}
+
+li a{
+	font-family: 'Source Serif Pro', serif;
+	color: gray;
+	text-decoration: none;
+	font-weight: 400;
+	font-size: 10px;
+}
+
+li a:hover{
+	color: black;
+	/*font-weight: bold;*/
+}
+
+li a:active {
+    color: black;
+}
+
+li a:focus {
+    color:black;
+}
+
+.section-heading{
+	margin-bottom: 0px;
+	font-family: 'Source Serif Pro', serif;
+}
+
+.picture-grid table{
+	padding-top: 60px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.picture-grid img{
+	height: 260px;
+	width: 260px;
+	object-fit: cover;
+
+}
+
+.footer{
+	text-align: center;
+	width: 200px;
+	padding-top: 16px;
+}
+
+.footer img{
+	width: 14px;
+	height: 14px;
+	padding: 3px;
+}
+
+.copyright{
+	font-size: 8px;
+	font-family: 'Source Serif Pro', serif;
+	font-style: italic;
+}
